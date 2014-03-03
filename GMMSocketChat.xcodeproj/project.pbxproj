@@ -34,23 +34,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C328906118C51EED00AD4211 /* LocalChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C328906118C51EED00AD4211 /* GMMSocketChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GMMSocketChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C328906418C51EED00AD4211 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C328906618C51EED00AD4211 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		C328906818C51EED00AD4211 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		C328906C18C51EED00AD4211 /* LocalChat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocalChat-Info.plist"; sourceTree = "<group>"; };
+		C328906C18C51EED00AD4211 /* GMMSocketChat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GMMSocketChat-Info.plist"; sourceTree = "<group>"; };
 		C328906E18C51EED00AD4211 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C328907018C51EED00AD4211 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C328907218C51EED00AD4211 /* LocalChat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LocalChat-Prefix.pch"; sourceTree = "<group>"; };
+		C328907218C51EED00AD4211 /* GMMSocketChat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GMMSocketChat-Prefix.pch"; sourceTree = "<group>"; };
 		C328907318C51EED00AD4211 /* GMMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMMAppDelegate.h; sourceTree = "<group>"; };
 		C328907418C51EED00AD4211 /* GMMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMMAppDelegate.m; sourceTree = "<group>"; };
 		C328907718C51EED00AD4211 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C328907C18C51EED00AD4211 /* GMMChatVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMMChatVC.h; sourceTree = "<group>"; };
 		C328907D18C51EED00AD4211 /* GMMChatVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMMChatVC.m; sourceTree = "<group>"; };
 		C328907F18C51EED00AD4211 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C328908518C51EED00AD4211 /* LocalChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C328908518C51EED00AD4211 /* GMMSocketChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GMMSocketChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C328908618C51EED00AD4211 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		C328908E18C51EED00AD4211 /* LocalChatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocalChatTests-Info.plist"; sourceTree = "<group>"; };
+		C328908E18C51EED00AD4211 /* GMMSocketChatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GMMSocketChatTests-Info.plist"; sourceTree = "<group>"; };
 		C328909018C51EED00AD4211 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C328909218C51EED00AD4211 /* LocalChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalChatTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,8 +92,8 @@
 		C328906218C51EED00AD4211 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C328906118C51EED00AD4211 /* LocalChat.app */,
-				C328908518C51EED00AD4211 /* LocalChatTests.xctest */,
+				C328906118C51EED00AD4211 /* GMMSocketChat.app */,
+				C328908518C51EED00AD4211 /* GMMSocketChatTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,10 +126,10 @@
 		C328906B18C51EED00AD4211 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C328906C18C51EED00AD4211 /* LocalChat-Info.plist */,
+				C328906C18C51EED00AD4211 /* GMMSocketChat-Info.plist */,
 				C328906D18C51EED00AD4211 /* InfoPlist.strings */,
 				C328907018C51EED00AD4211 /* main.m */,
-				C328907218C51EED00AD4211 /* LocalChat-Prefix.pch */,
+				C328907218C51EED00AD4211 /* GMMSocketChat-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -146,7 +146,7 @@
 		C328908D18C51EED00AD4211 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C328908E18C51EED00AD4211 /* LocalChatTests-Info.plist */,
+				C328908E18C51EED00AD4211 /* GMMSocketChatTests-Info.plist */,
 				C328908F18C51EED00AD4211 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -155,9 +155,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C328906018C51EED00AD4211 /* LocalChat */ = {
+		C328906018C51EED00AD4211 /* GMMSocketChat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C328909618C51EED00AD4211 /* Build configuration list for PBXNativeTarget "LocalChat" */;
+			buildConfigurationList = C328909618C51EED00AD4211 /* Build configuration list for PBXNativeTarget "GMMSocketChat" */;
 			buildPhases = (
 				C328905D18C51EED00AD4211 /* Sources */,
 				C328905E18C51EED00AD4211 /* Frameworks */,
@@ -167,14 +167,14 @@
 			);
 			dependencies = (
 			);
-			name = LocalChat;
+			name = GMMSocketChat;
 			productName = LocalChat;
-			productReference = C328906118C51EED00AD4211 /* LocalChat.app */;
+			productReference = C328906118C51EED00AD4211 /* GMMSocketChat.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C328908418C51EED00AD4211 /* LocalChatTests */ = {
+		C328908418C51EED00AD4211 /* GMMSocketChatTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C328909918C51EED00AD4211 /* Build configuration list for PBXNativeTarget "LocalChatTests" */;
+			buildConfigurationList = C328909918C51EED00AD4211 /* Build configuration list for PBXNativeTarget "GMMSocketChatTests" */;
 			buildPhases = (
 				C328908118C51EED00AD4211 /* Sources */,
 				C328908218C51EED00AD4211 /* Frameworks */,
@@ -185,9 +185,9 @@
 			dependencies = (
 				C328908B18C51EED00AD4211 /* PBXTargetDependency */,
 			);
-			name = LocalChatTests;
+			name = GMMSocketChatTests;
 			productName = LocalChatTests;
-			productReference = C328908518C51EED00AD4211 /* LocalChatTests.xctest */;
+			productReference = C328908518C51EED00AD4211 /* GMMSocketChatTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -205,7 +205,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C328905C18C51EED00AD4211 /* Build configuration list for PBXProject "LocalChat" */;
+			buildConfigurationList = C328905C18C51EED00AD4211 /* Build configuration list for PBXProject "GMMSocketChat" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,8 +218,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C328906018C51EED00AD4211 /* LocalChat */,
-				C328908418C51EED00AD4211 /* LocalChatTests */,
+				C328906018C51EED00AD4211 /* GMMSocketChat */,
+				C328908418C51EED00AD4211 /* GMMSocketChatTests */,
 			);
 		};
 /* End PBXProject section */
@@ -269,7 +269,7 @@
 /* Begin PBXTargetDependency section */
 		C328908B18C51EED00AD4211 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C328906018C51EED00AD4211 /* LocalChat */;
+			target = C328906018C51EED00AD4211 /* GMMSocketChat */;
 			targetProxy = C328908A18C51EED00AD4211 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -380,9 +380,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LocalChat/LocalChat-Prefix.pch";
-				INFOPLIST_FILE = "LocalChat/LocalChat-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "LocalChat/GMMSocketChat-Prefix.pch";
+				INFOPLIST_FILE = "LocalChat/GMMSocketChat-Info.plist";
+				PRODUCT_NAME = GMMSocketChat;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -393,9 +393,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LocalChat/LocalChat-Prefix.pch";
-				INFOPLIST_FILE = "LocalChat/LocalChat-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "LocalChat/GMMSocketChat-Prefix.pch";
+				INFOPLIST_FILE = "LocalChat/GMMSocketChat-Info.plist";
+				PRODUCT_NAME = GMMSocketChat;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -416,8 +416,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "LocalChatTests/LocalChatTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "LocalChatTests/GMMSocketChatTests-Info.plist";
+				PRODUCT_NAME = GMMSocketChatTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -435,8 +435,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LocalChat/LocalChat-Prefix.pch";
-				INFOPLIST_FILE = "LocalChatTests/LocalChatTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "LocalChatTests/GMMSocketChatTests-Info.plist";
+				PRODUCT_NAME = GMMSocketChatTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -445,7 +445,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C328905C18C51EED00AD4211 /* Build configuration list for PBXProject "LocalChat" */ = {
+		C328905C18C51EED00AD4211 /* Build configuration list for PBXProject "GMMSocketChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C328909418C51EED00AD4211 /* Debug */,
@@ -454,7 +454,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C328909618C51EED00AD4211 /* Build configuration list for PBXNativeTarget "LocalChat" */ = {
+		C328909618C51EED00AD4211 /* Build configuration list for PBXNativeTarget "GMMSocketChat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C328909718C51EED00AD4211 /* Debug */,
@@ -462,7 +462,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		C328909918C51EED00AD4211 /* Build configuration list for PBXNativeTarget "LocalChatTests" */ = {
+		C328909918C51EED00AD4211 /* Build configuration list for PBXNativeTarget "GMMSocketChatTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C328909A18C51EED00AD4211 /* Debug */,
