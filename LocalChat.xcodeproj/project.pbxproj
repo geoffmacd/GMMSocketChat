@@ -14,8 +14,7 @@
 		C328907118C51EED00AD4211 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C328907018C51EED00AD4211 /* main.m */; };
 		C328907518C51EED00AD4211 /* GMMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C328907418C51EED00AD4211 /* GMMAppDelegate.m */; };
 		C328907818C51EED00AD4211 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C328907618C51EED00AD4211 /* Main.storyboard */; };
-		C328907B18C51EED00AD4211 /* GMMFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C328907A18C51EED00AD4211 /* GMMFirstViewController.m */; };
-		C328907E18C51EED00AD4211 /* GMMSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C328907D18C51EED00AD4211 /* GMMSecondViewController.m */; };
+		C328907E18C51EED00AD4211 /* GMMChatVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C328907D18C51EED00AD4211 /* GMMChatVC.m */; };
 		C328908018C51EED00AD4211 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C328907F18C51EED00AD4211 /* Images.xcassets */; };
 		C328908718C51EED00AD4211 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C328908618C51EED00AD4211 /* XCTest.framework */; };
 		C328908818C51EED00AD4211 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C328906418C51EED00AD4211 /* Foundation.framework */; };
@@ -46,10 +45,8 @@
 		C328907318C51EED00AD4211 /* GMMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMMAppDelegate.h; sourceTree = "<group>"; };
 		C328907418C51EED00AD4211 /* GMMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMMAppDelegate.m; sourceTree = "<group>"; };
 		C328907718C51EED00AD4211 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C328907918C51EED00AD4211 /* GMMFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMMFirstViewController.h; sourceTree = "<group>"; };
-		C328907A18C51EED00AD4211 /* GMMFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMMFirstViewController.m; sourceTree = "<group>"; };
-		C328907C18C51EED00AD4211 /* GMMSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMMSecondViewController.h; sourceTree = "<group>"; };
-		C328907D18C51EED00AD4211 /* GMMSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMMSecondViewController.m; sourceTree = "<group>"; };
+		C328907C18C51EED00AD4211 /* GMMChatVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMMChatVC.h; sourceTree = "<group>"; };
+		C328907D18C51EED00AD4211 /* GMMChatVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMMChatVC.m; sourceTree = "<group>"; };
 		C328907F18C51EED00AD4211 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C328908518C51EED00AD4211 /* LocalChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C328908618C51EED00AD4211 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -118,10 +115,8 @@
 				C328907318C51EED00AD4211 /* GMMAppDelegate.h */,
 				C328907418C51EED00AD4211 /* GMMAppDelegate.m */,
 				C328907618C51EED00AD4211 /* Main.storyboard */,
-				C328907918C51EED00AD4211 /* GMMFirstViewController.h */,
-				C328907A18C51EED00AD4211 /* GMMFirstViewController.m */,
-				C328907C18C51EED00AD4211 /* GMMSecondViewController.h */,
-				C328907D18C51EED00AD4211 /* GMMSecondViewController.m */,
+				C328907C18C51EED00AD4211 /* GMMChatVC.h */,
+				C328907D18C51EED00AD4211 /* GMMChatVC.m */,
 				C328907F18C51EED00AD4211 /* Images.xcassets */,
 				C328906B18C51EED00AD4211 /* Supporting Files */,
 			);
@@ -255,10 +250,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C328907E18C51EED00AD4211 /* GMMSecondViewController.m in Sources */,
+				C328907E18C51EED00AD4211 /* GMMChatVC.m in Sources */,
 				C328907518C51EED00AD4211 /* GMMAppDelegate.m in Sources */,
 				C328907118C51EED00AD4211 /* main.m in Sources */,
-				C328907B18C51EED00AD4211 /* GMMFirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
